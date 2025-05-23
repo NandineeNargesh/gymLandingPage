@@ -1,0 +1,116 @@
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('layot/backgrounds/gym.jpg');
+font-family: specimen,eb,garamond;
+    }
+
+    .left{
+/* border: 2px solid white; */
+display: inline-block;
+left: 34px;
+position: absolute;
+        top: 20px;
+    
+
+    }
+    .mid{
+        /* border: 2px solid rgb(225, 53, 53); */
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+    }
+    .right{
+        /* border: 2px solid rgb(119, 146, 228); */
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 34px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+         text-decoration: underline;
+color: rgb(35, 220, 234);
+         }
+         .left img{
+width: 100px;
+border-radius:50% ;
+}
+ .div{
+text-align: center;
+color: white;
+font-family: Southeasterly Demo;
+font-size: 19px;
+}
+.btn{
+    color: white;
+    margin: 0px 9px;
+    font-family: specimen,eb,garamond;
+    background-color: black;
+    padding: 5px 15px;
+    font-size: 14px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px grey;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: rgb(72, 70, 70);
+    color: whitesmoke;
+}
+.container{
+    /* border: 2px solid red; */
+    color: white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 35%;
+    /* font-family: specimen,eb,garamond; */
+    
+}
+.container h1{
+    font-family: specimen,eb,garamond;
+    text-align: center;
+}
+/* filter: invert(0%); */
+      .formgroup input{
+font-size: 17px;
+text-align: center;
+display: block;
+width: 300px;
+padding:2px; 
+margin: 10px auto;
+border-radius: 7px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}  
+.container button{
+    /* text-align: center; */
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 4px;
+    
+    /* margin-top: 30px; */
+    /* margin-left: 118.6px; */
+
+
+}
+.container button:hover{
+    background-color: rgb(57, 55, 55);
+    transform: scale(1.3);
+    font-size: 15px;
+}
